@@ -26,7 +26,7 @@
             <div class="second">
                 <h3>Let's do this!</h3>
                 <form action="" method="get" class="form-main-div">
-                    <div class="form-div">
+                    <div class="form-divs">
                         <div class="form-div">
                             <label for="firstName">First Name</label>
                             <input type="text" name="first_name" id="firstName" placeholder="Enter your name">
@@ -37,10 +37,11 @@
                         </div>
                         <div class="form-div">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                            <p id="error"></p>
                         </div>
                     </div>
-                    <div class="form-div">
+                    <div class="form-divs">
                         <div class="form-div">
                             <label for="lastName">Last Name</label>
                             <input type="text" name="last_name" id="lastName" placeholder="Enter your last name">
@@ -51,7 +52,8 @@
                         </div>
                         <div class="form-div">
                             <label for="confirmPassword">Confirm Password</label>
-                            <input type="confirmPassword" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password">
+                            <input type="confirmPassword" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password" required>
+                            <p id="error"></p>
                         </div>
                     </div>
                 </form>
