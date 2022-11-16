@@ -114,11 +114,41 @@ input:invalid{
     margin-top: 25px;
     margin-left: 50px;
 }
-
 .login{
     color: green;
     text-decoration: none;
     font-weight: bold;
 }
+.a-footer{
+    color: white
+}
+.p-footer{
+    font-size: 12px;
+}
 
+.left-image{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
 
+.left-footer{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    width: inherit;
+    align-items: flex-end;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.image h1{
+    font-size: 40px;
+}
