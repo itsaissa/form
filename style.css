@@ -49,6 +49,7 @@ body{
 }
 .second > h3{
     margin-left: 50px;
+    padding-top: 10px;
 }
 .form-main-div{
     display: flex;
